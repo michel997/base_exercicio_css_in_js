@@ -2,11 +2,12 @@ import Header from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
 
-import './global.css'
+import Estilos from './styles'
 
 function App() {
   return (
     <>
+      <Estilos />
       <Header />
       <Hero />
       <div className="container">
